@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog "
+        android:textSize="30sp"
+        android:backgroundTint="@color/black"
+   />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog "
+        android:backgroundTint="@color/black"
+        android:textSize="30sp"
+   /><Button
+        android:id="@+id/btn_3"
+    android:backgroundTint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment Dialog "
+        android:textSize="30sp"
+   /><Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DatePicker Dialog"
+        android:textSize="30sp"
+    android:backgroundTint="@color/black"
+   /><Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimePicker Dialog"
+        android:textSize="30sp"
+    android:backgroundTint="@color/black"
+   /><Button
+        android:id="@+id/btn_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BottomSheet Dialog"
+        android:textSize="30sp"
+    android:backgroundTint="@color/black"
+   /><Button
+        android:id="@+id/btn_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snackbar "
+        android:textSize="30sp"
+    android:backgroundTint="@color/black"
+   />
+
+
+
+</LinearLayout>
